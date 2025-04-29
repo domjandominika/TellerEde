@@ -1,5 +1,10 @@
 git init
+
+-- checkout átváltasz ágra és a -b létrehozza egyben ha még nincs --
 git checkout -b "ágnév"
+
+-- sima váltás ha már létezik --
+git checkout "ágnév"
 
 -- itt dolgoztok valamit, aztán mentés --
 
@@ -9,6 +14,6 @@ git commit -m "commit üzenet"
 -- repo beállítása --
 git remote add origin https://github.com/felhasznalonev/repo.git
 
-git push -u origin jani
+git push -u origin "ágnév"
 
 -- have fun --
