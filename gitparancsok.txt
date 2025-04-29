@@ -1,0 +1,14 @@
+git init
+git checkout -b "ágnév"
+
+-- itt dolgoztok valamit, aztán mentés --
+
+git add .
+git commit -m "commit üzenet"
+
+-- repo beállítása --
+git remote add origin https://github.com/felhasznalonev/repo.git
+
+git push -u origin jani
+
+-- have fun --
